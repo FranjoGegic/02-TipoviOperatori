@@ -5,6 +5,9 @@ using System.Text;
 
 namespace CSharp.TipoviOperatori
 {
+    /// <summary>
+    ///     Ovo je samo moja vjezba pisanja komentara.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -27,7 +30,12 @@ namespace CSharp.TipoviOperatori
             return broj * broj;
         }
 
-
+        /// <summary>
+        ///     Izracunava ukupnu duljinu dvije rijeci.
+        /// </summary>
+        /// <param name="prva">Prva rijec.</param>
+        /// <param name="druga">Druga rijec.</param>
+        /// <returns>Zbroj duljina.</returns>
         static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return (prva + druga).Length;
