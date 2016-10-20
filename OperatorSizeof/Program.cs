@@ -35,15 +35,20 @@ namespace CSharp.TipoviOperatori
         static void Main(string[] args)
         {
             // ispisati duljinu tipa decimal
+            Console.WriteLine(sizeof(decimal));
 
             // ispisati duljinu tipa double
+            Console.WriteLine(sizeof(double));
 
-            // ispisati duljinu tipa MojaStruktura
+            // ispisati duljinu tipa MojaStruktura            
+            Console.WriteLine(sizeof(MojaStruktura));
 
             // ispisati duljinu tipa MojaSloženaStruktura
+            Console.WriteLine(sizeof(MojaSloženaStruktura));
 
             // ispisati duljinu tipa MojaKlasa
-
+            Console.WriteLine(sizeof(MojaKlasa));
+            
             Console.ReadKey();
         }
     }

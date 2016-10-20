@@ -14,6 +14,19 @@ namespace CSharp.TipoviOperatori
 
             double običniDuplic = Math.PI;
 
+            nulabilniDuplić = null;
+            Console.WriteLine(nulabilniDuplić);
+
+            /*
+            običniDuplic = null;
+            Console.WriteLine(običniDuplic);
+            */
+
+            Nullable<double> nulabilniDouble = Math.PI;
+            Console.WriteLine(nulabilniDouble);
+
+            nulabilniDouble = null;
+            Console.WriteLine(nulabilniDouble);
 
             Console.ReadKey();
         }
