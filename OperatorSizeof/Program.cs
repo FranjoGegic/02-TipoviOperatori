@@ -41,14 +41,14 @@ namespace CSharp.TipoviOperatori
             Console.WriteLine(sizeof(double));
 
             // ispisati duljinu tipa MojaStruktura            
-            Console.WriteLine(sizeof(MojaStruktura));
+            Console.WriteLine(System.Runtime.InteropServices.Marshal.SizeOf(typeof(MojaStruktura)));
 
             // ispisati duljinu tipa MojaSloženaStruktura
-            Console.WriteLine(sizeof(MojaSloženaStruktura));
+            Console.WriteLine(System.Runtime.InteropServices.Marshal.SizeOf(typeof(MojaSloženaStruktura)));
 
             // ispisati duljinu tipa MojaKlasa
-            Console.WriteLine(sizeof(MojaKlasa));
-            
+            //Console.WriteLine(System.Runtime.InteropServices.Marshal.SizeOf((MojaKlasa));
+
             Console.ReadKey();
         }
     }
